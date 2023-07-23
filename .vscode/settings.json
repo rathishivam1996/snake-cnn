@@ -1,0 +1,11 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "python.linting.pylintArgs": [
+    "--extension-pkg-whitelist=pygame",
+    "--disable=C0111",
+    "--generated-members=numpy.* ,torch.*"
+  ]
+}
